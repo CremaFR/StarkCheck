@@ -4,6 +4,10 @@
     "description": "Public API for Ledger StarkCheck",
     "author": "innovation@ledger.fr",
     "license": "Apache-2.0",
+    "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
     "scripts": {
         "dev": "nodemon src/server.ts",
         "build": "rm -rf build/ && tsc",
