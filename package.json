@@ -10,7 +10,7 @@
   },
     "scripts": {
         "dev": "nodemon src/server.ts",
-        "start": "node build/server.js"
+        "start": "node build/server.js",
         "build": "rm -rf build/ && tsc",
         "test": "jest --setupFiles dotenv/config",
         "test:ci": "jest --ci",
